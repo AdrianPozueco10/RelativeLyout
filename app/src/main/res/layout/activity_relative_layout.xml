@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/perro"
+    tools:context=".RelativeLayout">
+
+    <TextView
+        android:id="@+id/txVRojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorRojo"
+        android:padding="28dp"
+        android:text="@string/rojo"
+        android:textColor="@color/verdeTransparente" />
+
+    <TextView
+        android:id="@+id/txVNaranja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/naranjaTransparente"
+        android:padding="28dp"
+        android:text="@string/naranja"
+        android:textColor="@color/colorIndigo" />
+
+    <TextView
+        android:id="@+id/txVAmarillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/amarilloTransparente"
+        android:padding="28dp"
+        android:text="@string/amarillo"
+        android:textColor="@color/colorVerde" />
+
+    <TextView
+        android:id="@+id/txVAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/azulTransparente"
+        android:padding="28dp"
+        android:text="@string/azul"
+        android:textColor="@color/colorNaranja" />
+
+    <TextView
+        android:id="@+id/txVVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/txVAzul"
+        android:background="@color/verdeTransparente"
+        android:padding="28dp"
+        android:text="@string/verde"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/txVVioleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/txVAzul"
+        android:background="@color/violetaTransparente"
+        android:padding="28dp"
+        android:text="@string/violeta"
+        android:textColor="@color/colorAzul" />
+
+    <TextView
+        android:id="@+id/txVRosa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/rosaTransparente"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="@string/indigo"
+        android:textColor="@color/colorVerde" />
+</RelativeLayout>
